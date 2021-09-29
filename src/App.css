@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Patrick Hand", cursive;
+  background: #fad02c;
+}
+
+.App {
+  width: 80vw;
+  height: 100vh;
+  margin: 0 auto;
+  padding: 2rem;
+  /* display: flex; */
+}
+.title {
+  width: auto;
+  margin-left: auto;
+  text-align: center;
+  font-size: 1.25rem;
+}
+.box {
+  width: 50%;
+  height: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background: #90adc6;
+  border-radius: 2rem;
+  border: 5px solid black;
+  padding-top: 2rem;
+  color: #333652;
+  margin-bottom: 1rem;
+}
+
+.inputData {
+  width: 90%;
+  height: 20%;
+}
+.inputData input[type="search"] {
+  width: 100%;
+  height: 60%;
+  font-size: large;
+  text-align: center;
+  border-radius: 2rem;
+  border: none;
+}
+@media screen and (max-width: 768px) {
+  .box {
+    width: 80%;
+    height: 80%;
+  }
+  .inputData {
+    height: 10%;
+  }
+}
+.inputData input:focus {
+  border: 1px solid #333652;
+}
+.info {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1.25rem;
+}
+.icon {
+  font-size: 5rem;
+}
+.city {
+  font-size: 3rem;
+}
+.temp {
+  font-size: 2.5rem;
+}
+.temp_min_max {
+  font-size: 1.5rem;
+}
+.nodata {
+  font-size: 2rem;
+}
